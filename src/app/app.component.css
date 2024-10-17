@@ -1,0 +1,42 @@
+.container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.seat-request {
+  margin-bottom: 20px;
+}
+
+.seat-layout {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.row div {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  line-height: 30px;
+  text-align: center;
+  border: 1px solid #000;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.booked {
+  background-color: red;
+  color: white;
+}
+
+.available {
+  background-color: green;
+  color: white;
+}
